@@ -11,9 +11,9 @@ Some results:
 
 * asyncsteem (stage, with batches)     :      4 minutes and 10 seconds.
 * asyncsteem (stage, no batches)       :     17 minutes and 52 seconds. 
-* asyncsteem (api, no batches)         :            
-* steem-python (api, get\_blocks\_range) :  
-* steem-python (api, stream\_from)      : 
+* asyncsteem (api, no batches)         :     18 minutes and 20 seconds.       
+* steem-python (api, get\_blocks\_range) :      9 minutes and 7 seconds. 
+* steem-python (api, stream\_from)      : (running) 
 
 
 
