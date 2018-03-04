@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 import steem
 import time
-nodes = ["steemd.pevo.science"]
-#steemd = steem.steemd.Steemd(nodes) #FIXME, issue with using stage, no clue as to why.
-steemd = steem.steemd.Steemd()
+nodes = ["https://api.steemit.com"]
+steemd = steem.steemd.Steemd(nodes)
 starttime = time.time()
 dvcount = 0
 firstblock = 18581583

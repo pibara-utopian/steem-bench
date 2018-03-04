@@ -26,7 +26,7 @@ def get_block(blk,log):
 starttime = time.time()
 obs = textFileLogObserver(sys.stdout)
 log = Logger(observer=obs,namespace="asyncsteem_bench_nobatch")
-rpcclient = RpcClient(reactor,log,nodelist="bench3",stop_when_empty=True)
+rpcclient = RpcClient(reactor,log,nodelist="bench7",stop_when_empty=True)
 for block in range(18581583,18610152):
     get_block(block,log)
 rpcclient()

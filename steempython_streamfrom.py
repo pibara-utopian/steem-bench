@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import steem
 import time
-nodes = ["https://steemd.pevo.science/"]
-steemd = steem.steemd.Steemd(nodes) #FIXME, issue with using stage, no clue as to why.
+nodes = ["https://api.steemit.com"]
+steemd = steem.steemd.Steemd(nodes)
 #steemd = steem.steemd.Steemd()
 blockchain = steem.blockchain.Blockchain(steemd)
 starttime = time.time()
