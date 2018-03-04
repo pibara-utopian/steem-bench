@@ -15,7 +15,7 @@ Some results:
 * steem-python (api, get\_blocks\_range) :      9 minutes and 7 seconds. 
 * steem-python (api, stream\_from)      : (running) 
 
-
+The above are results from just one run, so don't put to much value on the exact numbers yet.
 
 
 
