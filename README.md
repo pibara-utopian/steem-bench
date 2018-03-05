@@ -13,9 +13,15 @@ Some results:
 * asyncsteem (stage, no batches)       :     17 minutes and 52 seconds. 
 * asyncsteem (api, no batches)         :     18 minutes and 20 seconds.       
 * steem-python (api, get\_blocks\_range) :      9 minutes and 7 seconds. 
-* steem-python (api, stream\_from)      : (running) 
+* steem-python (api, stream\_from)      :    67 minutes and 15 seconds. 
 
 The above are results from just one run, so don't put to much value on the exact numbers yet.
 
+
+If we use *get\_blocks\_range* as base line of 100% performance this gives us the following results:
+
+* asyncsteem (batches) : 219%
+* asyncsteem (no batches) : 51%
+* steem-python (stream\_from) : 13.6%
 
 
